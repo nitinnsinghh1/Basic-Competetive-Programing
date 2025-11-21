@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+c=int(input())
+max=lambda a,b,c:a if a>=b and a>=c else (b if b>=c else c)
+print(max(a,b,c))

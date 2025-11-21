@@ -1,0 +1,5 @@
+arr=list(map(int,input().split()))
+result=list(map(lambda i: i *i,arr))
+result2=list(filter(lambda i:i%4==0,result))
+print("Squares: ", result)
+print("Multiples of 4: ",result2)
